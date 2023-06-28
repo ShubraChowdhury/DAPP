@@ -1,24 +1,24 @@
-npm install -g truffle
-truffle unbox webpack 
-npm install --save  truffle-hdwallet-provider@1.0.17
-npm install openzeppelin-solidity ==> This causes issues with the version
-RESOLVING solidity version issue
+ npm install -g truffle
+<br> truffle unbox webpack 
+<br> npm install --save  truffle-hdwallet-provider@1.0.17
+<br> npm install openzeppelin-solidity ==> This causes issues with the version
+<br> RESOLVING solidity version issue
 
-"Solidity 0.5 use the below mentioned  (Note create a directory "node_modules" under root directory or else the "node_modules" under "app" will fail to create openzeppelin-solidity 
+<br> "Solidity 0.5 use the below mentioned  (Note create a directory "node_modules" under root directory or else the "node_modules" under "app" will fail to create openzeppelin-solidity 
 and you will not get the file ERC721.sol"
 
-npm install @openzeppelin/contracts@2.5.1
+<br>  npm install @openzeppelin/contracts@2.5.1
 
-ERC-721 Token name = "Shubra West Star"
-ERC-721 Token symbol = "SHUBW"
-Truffle v5.10.1 (core: 5.10.1)
-Ganache v7.8.0
-Solidity v0.5.16 (solc-js)
-Node v18.16.0
-Web3.js v1.10.0
+#### <br> ERC-721 Token name = "Shubra West Star"
+#### <br> ERC-721 Token symbol = "SHUBW"
+<br> Truffle v5.10.1 (core: 5.10.1)
+<br> Ganache v7.8.0
+<br> Solidity v0.5.16 (solc-js)
+<br> Node v18.16.0
+<br> Web3.js v1.10.0
 
-Reference https://knowledge.udacity.com/?nanodegree=nd1309&page=1&project=526&rubric=5028
-Followed steps shown by Rachana/Instructor
+<br> Reference https://knowledge.udacity.com/?nanodegree=nd1309&page=1&project=526&rubric=5028
+<br> Followed steps shown by Rachana/Instructor
 
 Getting Chain ID
 
