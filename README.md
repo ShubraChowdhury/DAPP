@@ -1,25 +1,24 @@
-npm install -g truffle
-truffle unbox webpack 
-npm install --save  truffle-hdwallet-provider@1.0.17
-npm install openzeppelin-solidity ==> This causes issues with the version
-RESOLVING solidity version issue
-
+##### npm install -g truffle
+##### truffle unbox webpack 
+##### npm install --save  truffle-hdwallet-provider@1.0.17
+##### npm install openzeppelin-solidity ==> This causes issues with the version
+##### RESOLVING solidity version issue
 "Solidity 0.5 use the below mentioned  (Note create a directory "node_modules" under root directory or else the "node_modules" under "app" will fail to create openzeppelin-solidity 
 and you will not get the file ERC721.sol"
 
-npm install @openzeppelin/contracts@2.5.1
+##### npm install @openzeppelin/contracts@2.5.1
 
-ERC-721 Token name = "Shubra West Star"
-ERC-721 Token symbol = "SHUBW"
-Truffle v5.10.1 (core: 5.10.1)
-Ganache v7.8.0
-Solidity v0.5.16 (solc-js)
-Node v18.16.0
-Web3.js v1.10.0
+##### ERC-721 Token name = "Shubra West Star"
+##### ERC-721 Token symbol = "SHUBW"
+##### Truffle v5.10.1 (core: 5.10.1)
+##### Ganache v7.8.0
+##### Solidity v0.5.16 (solc-js)
+##### Node v18.16.0
+##### Web3.js v1.10.0
 
 
-Reference https://knowledge.udacity.com/?nanodegree=nd1309&page=1&project=526&rubric=5028
-Followed steps shown by Rachana/Instructor
+##### Reference https://knowledge.udacity.com/?nanodegree=nd1309&page=1&project=526&rubric=5028
+##### Followed steps shown by Rachana/Instructor
 
 Getting Chain ID
 
@@ -31,7 +30,7 @@ set  NODE_OPTIONS=--openssl-legacy-provider
 THEN RUN
 npm run dev
 
-================= TEST =================================
+##### ================= TEST =================================
 truffle(develop)> test
 Using network 'develop'.
 
@@ -70,7 +69,7 @@ Compiling your contracts...
   9 passing (1s)
 
 
-======================== MIGRATE TO SEPOLI ============================
+##### ======================== MIGRATE TO SEPOLI ============================
 
 
 truffle(develop)> migrate --reset --network sepolia
