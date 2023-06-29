@@ -56,6 +56,22 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
 
+//https://sepolia.infura.io/v3/3ac7aa1d15be4ad0a791d69718e75e8b
+
+	sepolia: {
+	      provider: () => new HDWalletProvider(mnemonic, "https://sepolia.infura.io/v3/3ac7aa1d15be4ad0a791d69718e75e8b"),
+	      //provider: () => new HDWalletProvider(mnemonic, "wss://sepolia.infura.io/ws/v3/" + infuraKey),
+
+	      network_id: "*",
+	      timeout: 300000, // Increase timeout value to 5 minutes (in milliseconds)
+	      networkCheckTimeout: 300000 // Increase network check timeout to 5 minutes (in milliseconds)
+    },
+
+
+
+
+
+
 
 		goerli: {
 
